@@ -1,0 +1,397 @@
+@media only screen and (max-width:1350px) {
+    .homepage .c-container {
+        max-width: 1240px;
+    }
+    .nav-menu ul li {
+        margin: 0 30px;
+    }
+    .nav-menu ul li a {
+        font-size: 19px;
+    }
+    .box-content span {
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 1170px) {
+    #header {
+        padding-top: 0;
+    }
+    .logo {
+        top: 28px;
+    }
+    .homepage .c-container {
+        max-width: 992px;
+    }
+    .logo a img {
+        max-width: 290px;
+    }
+    .image-content {
+        width: 610px;
+    }
+    .image-content h1 {
+        font-size: 45px;
+    }
+    .hero-slider .item {
+        background-position: center;
+        height: 440px;
+    }
+    .acme-insite .box-title {
+        font-size: 31px;
+    }
+    .part-detail h2 {
+        font-size: 35px;
+    }
+    .part-detail p {
+        font-size: 20px;
+        min-height: unset;
+        margin-bottom: 20px;
+    }
+    .box-content span {
+        font-size: 20px;
+    }
+    .event-name span {
+        font-size: 20px;
+    }
+    .box-content p {
+        margin-bottom: 20px;
+    }
+    .btn-link a {
+        font-size: 15px;
+        padding: 7px 15px;
+        min-width: 155px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .homepage .c-container {
+        max-width: 768px;
+    }
+    #header {
+        background: #eaecee;
+    }
+    .logo {
+        top: 0;
+        display: none;
+    }
+    .m-logo {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .web-details {
+        float: unset;
+        padding-top: unset;
+        position: absolute;
+        top: 0;
+        z-index: 88888;
+        right: 40px;
+    }
+    .navbar.navbar-expand-lg.mt-5 {
+        margin-top: 20px !important;
+    }
+    .offcanvas-collapse {
+        background: #fff;
+    }
+    .nav-menu ul li:last-child {
+        margin-right: unset;
+    }
+    .navbar-nav.ml-auto {
+        text-align: center;
+        max-width: 700px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .nav-menu ul li {
+        margin: 10px 0px;
+        padding: 10px 0;
+        width: 100%;
+        background: #ebebeb;
+    }
+    .nav-menu ul li a {
+        color: #707070;
+    }
+    .image-content {
+        width: 490px;
+        padding-bottom: 20px;
+    }
+    .hero-slider .item {
+        height: 380px;
+    }
+    .image-content {
+        width: 490px;
+    }
+    .image-content h1 {
+        font-size: 40px;
+    }
+    .image-content p {
+        font-size: 30px;
+    }
+    .section-title h4 {
+        font-size: 30px;
+    }
+    .triangle-topleft {
+        border-top: 50px solid #fff;
+        border-right: 50px solid transparent;
+    }
+    .triangle-bottomright {
+        border-bottom: 50px solid #fff;
+        border-left: 50px solid transparent;
+    }
+    .acme-insite .box-title {
+        font-size: 22px;
+    }
+    .part-detail h2 {
+        font-size: 25px;
+    }
+    .part-detail p {
+        font-size: 17px;
+        min-height: unset;
+        margin-bottom: 20px;
+    }
+    .box-content p {
+        height: 66px;
+    }
+    .event-name span {
+        font-size: 15px;
+    }
+    .offcanvas-collapse.open::after {
+        content: ' ';
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.8);
+        left: 0;
+        z-index: -1;
+    }
+    .site-link {
+        display: block !important;
+    }
+    .nav-menu ul .site-link {
+        background: transparent;
+        border-bottom: 2px solid #ebebeb;
+    }
+    .site-link a {
+        color: #193989 !important;
+    }
+    .navbar-collapse.open ~ .navbar-toggler .navbar-close-icon{
+        display: block;
+    }
+    .navbar-collapse.open ~ .navbar-toggler .navbar-toggler-icon{
+        display: none;
+    }
+    .acme-insite {
+        background: #193989;
+    }
+    .acme-insite.u-events {
+        background: #ebebeb;
+    }
+    .section-title h4 {
+        color: #001a7a;
+    }
+    .section-title span {
+        color: #707070;
+    }
+    .c-white h4 {
+        color: #fff;
+    }
+    .c-white span {
+        color: #fff;
+    }
+    .acme-slider .item {
+        padding: 0px 0px 10px 1px #ccc;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .homepage .c-container {
+        max-width: 576px;
+    }
+    .acme-insite .box-title {
+        font-size: 30px;
+        color: #008c82;
+    }
+    .owl-dots {
+        position: unset;
+        bottom: unset;
+        left: unset;
+        transform: unset;
+    }
+    .owl-dots {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .event-name span {
+        font-size: 20px;
+    }
+    .border-light-blue {
+        border-bottom: 12px solid #008c82;
+    }
+    .border-blue {
+        border-bottom: 12px solid #008c82;
+    }
+    .date {
+        background: #fff;
+    }
+    .date span {
+        color: #008c82;
+    }
+    .date strong {
+        color: #008c82;
+    }
+    .date::after {
+        border-bottom: 11px solid #c3c3c3;
+    }
+    .box-content {
+        background: #001a7a;
+    }
+    .box-content::after {
+        border-top: 50px solid #001a7a;
+        border-right: 50px solid transparent;
+        border-left: 20px solid #001a7a;
+    }
+    .hero-slider .item {
+        background: #1a9cf7 !important;
+    }
+    .logo-icon {
+        text-align: center;
+        display: block;
+        margin-top: 30px;
+    }
+    .logo-icon a img {
+        width: 50px;
+    }
+    footer {
+        background: #cccccc;
+    }
+    .d-footer {
+        display: none !important;
+    }
+    .mobile-section {
+        display: block;
+    }
+    #header {
+        border: 0px;
+    }
+    .s-bold {
+        font-weight: bolder;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .homepage .c-container {
+        max-width: 450px;
+    }
+    .image-content {
+        width: unset;
+    }
+    .image-content h1 {
+        font-size: 30px;
+    }
+    .image-content p {
+        font-size: 25px;
+    }
+    .hero-slider .item {
+        height: 300px;
+    }
+    .acme-insite .box-title {
+        font-size: 23px;
+    }
+    .contact-details {
+        padding: 30px 0 50px 0;
+    }
+    .box-content span {
+        font-size: 17px;
+        margin-bottom: 10px;
+        display: block;
+    }
+    .event-name span {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    /*.homepage .c-container {
+        max-width: 320px;
+    }*/
+    .hero-slider .item {
+        height: 250px;
+    }
+    .image-content {
+        padding: 0;
+    }
+    .image-content h1 {
+        font-size: 23px;
+    }
+    .image-content p {
+        font-size: 18px;
+    }
+    .section-title h4 {
+        font-size: 20px;
+    }
+    .section-title span {
+        font-size: 12px;
+    }
+    .acme-slider .item {
+        padding: 16px 5px 10px 5px;
+    }
+    .acme-insite .box-title {
+        font-size: 22px;
+    }
+    .part-detail h2 {
+        font-size: 18px;
+    }
+    .part-detail p {
+        font-size: 13px;
+    }
+    .upcominng-event-box {
+        margin-top: 30px;
+    }
+    .box-content {
+        padding: 70px 10px 50px 10px;
+    }
+    .box-content span {
+        font-size: 22px;
+    }
+    .box-content p {
+        font-size: 13px;
+    }
+    .btn-link a {
+        font-size: 13px;
+        padding: 7px 5px;
+        min-width: 125px;
+    }
+    .box-content::after {
+        border-top: 30px solid #001a7a;
+        border-right: 20px solid transparent;
+        bottom: -30px;
+        border-left: 20px solid #001a7a;
+    }
+    .event-name {
+        margin-top: 0;
+    }
+    .event-name span {
+        font-size: 12px;
+    }
+    footer .d-flex.justify-content-between {
+        flex-direction: column;
+    }
+    .social-icon {
+        margin-top: 10px;
+    }
+    .social-icon span {
+        top: 0;
+    }
+    .m-logo a img {
+        max-width: 140px;
+    }
+    .web-details {
+        right: 20px;
+    }
+    .navbar.navbar-expand-lg.mt-5 {
+        margin-top: 10px !important;
+    }
+    .offcanvas-collapse.open {
+        top: 57px;
+    }
+    .nav-menu ul li a {
+        font-size: 15px;
+    }
+}
